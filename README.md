@@ -1,18 +1,32 @@
 # YOLO Object Detection System
 
-## 📌 Project Overview
-This project implements real-time object detection using the YOLO (You Only Look Once) algorithm.
+## Project Overview
+This project implements real-time object detection using the YOLO algorithm. The system identifies objects in images or video streams and displays bounding boxes with labels and confidence scores.
 
-## 🛠 Technologies Used
+## Technologies Used
 - Python
 - OpenCV
-- YOLO
+- YOLOv3
+- NumPy
 
-## 🚀 Features
+## Key Features
 - Real-time object detection
-- Bounding box visualization
+- Object classification with bounding boxes
 - Confidence score display
+- Custom label detection
 
-## 🧠 Learning Outcome
-Improved understanding of computer vision, deep learning model integration, and real-time processing.
+## Project Structure
+- Main.py – Main program to run detection
+- ObjectDetection.py – Detection logic
+- model/ – Model configuration and labels
+- requirements.txt – Required Python libraries
 
+## How to Run
+1. Install dependencies  
+pip install -r requirements.txt
+
+2. Run the project  
+python Main.py
+
+## Learning Outcome
+This project helped me understand computer vision concepts, object detection techniques, and real-time AI system implementation.
